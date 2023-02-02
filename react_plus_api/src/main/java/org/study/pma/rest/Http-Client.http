@@ -1,0 +1,30 @@
+###
+POST {{baseUrl}}/api/users/register
+Content-Type: application/json
+
+< user-request-body.json
+###
+POST {{baseUrl}}/api/users/login
+Content-Type: application/json
+
+< user-login-body.json
+###
+POST {{baseUrl}}/api/project/
+
+###
+GET {{baseUrl}}/api/project/1
+###
+GET {{baseUrl}}/api/project/all
+###
+DELETE {{baseUrl}}/api/project/1
+###
+POST {{baseUrl}}/api/backlog/1
+###
+GET {{baseUrl}}/api/backlog/1
+###
+GET {{baseUrl}}/api/backlog/1/1
+###
+PATCH {{baseUrl}}/api/backlog/1/1
+###
+DELETE {{baseUrl}}/api/backlog/1/1
+

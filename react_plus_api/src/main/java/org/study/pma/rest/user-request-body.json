@@ -1,0 +1,221 @@
+{
+  "id": 0,
+  "username": "",
+  "fullName": "",
+  "password": "",
+  "confirmPassword": "",
+  "create_At": 1675361460192,
+  "update_At": 1675361460192,
+  "projects": [
+    {
+      "id": 0,
+      "projectName": "",
+      "projectIdentifier": "",
+      "projectDescription": "",
+      "startDate": 1675361460202,
+      "endDate": 1675361460202,
+      "createdAt": 1675361460203,
+      "updatedAt": 1675361460203,
+      "backlog": {
+        "id": 0,
+        "PTSequence": 0,
+        "projectIdentifier": "",
+        "project": {
+          "id": 0,
+          "projectName": "",
+          "projectIdentifier": "",
+          "projectDescription": "",
+          "startDate": 1675361460206,
+          "endDate": 1675361460206,
+          "createdAt": 1675361460206,
+          "updatedAt": 1675361460206,
+          "backlog": {
+            "id": 0,
+            "PTSequence": 0,
+            "projectIdentifier": "",
+            "project": {
+              "id": 0,
+              "projectName": "",
+              "projectIdentifier": "",
+              "projectDescription": "",
+              "startDate": 1675361460207,
+              "endDate": 1675361460207,
+              "createdAt": 1675361460207,
+              "updatedAt": 1675361460207,
+              "backlog": {},
+              "user": {},
+              "projectLeader": ""
+            },
+            "projectTasks": [
+              {
+                "id": 0,
+                "projectSequence": "",
+                "summary": "",
+                "acceptanceCriteria": "",
+                "status": "",
+                "priority": 0,
+                "dueDate": 1675361460211,
+                "backlog": {},
+                "projectIdentifier": "",
+                "create_At": 1675361460212,
+                "update_At": 1675361460213
+              }
+            ]
+          },
+          "user": {
+            "id": 0,
+            "username": "",
+            "fullName": "",
+            "password": "",
+            "confirmPassword": "",
+            "create_At": 1675361460214,
+            "update_At": 1675361460214,
+            "projects": [
+              {
+                "id": 0,
+                "projectName": "",
+                "projectIdentifier": "",
+                "projectDescription": "",
+                "startDate": 1675361460242,
+                "endDate": 1675361460242,
+                "createdAt": 1675361460242,
+                "updatedAt": 1675361460242,
+                "backlog": {},
+                "user": {},
+                "projectLeader": ""
+              }
+            ]
+          },
+          "projectLeader": ""
+        },
+        "projectTasks": [
+          {
+            "id": 0,
+            "projectSequence": "",
+            "summary": "",
+            "acceptanceCriteria": "",
+            "status": "",
+            "priority": 0,
+            "dueDate": 1675361460245,
+            "backlog": {
+              "id": 0,
+              "PTSequence": 0,
+              "projectIdentifier": "",
+              "project": {
+                "id": 0,
+                "projectName": "",
+                "projectIdentifier": "",
+                "projectDescription": "",
+                "startDate": 1675361460245,
+                "endDate": 1675361460245,
+                "createdAt": 1675361460245,
+                "updatedAt": 1675361460245,
+                "backlog": {},
+                "user": {},
+                "projectLeader": ""
+              },
+              "projectTasks": [
+                {
+                  "id": 0,
+                  "projectSequence": "",
+                  "summary": "",
+                  "acceptanceCriteria": "",
+                  "status": "",
+                  "priority": 0,
+                  "dueDate": 1675361460247,
+                  "backlog": {},
+                  "projectIdentifier": "",
+                  "create_At": 1675361460247,
+                  "update_At": 1675361460247
+                }
+              ]
+            },
+            "projectIdentifier": "",
+            "create_At": 1675361460247,
+            "update_At": 1675361460247
+          }
+        ]
+      },
+      "user": {
+        "id": 0,
+        "username": "",
+        "fullName": "",
+        "password": "",
+        "confirmPassword": "",
+        "create_At": 1675361460248,
+        "update_At": 1675361460248,
+        "projects": [
+          {
+            "id": 0,
+            "projectName": "",
+            "projectIdentifier": "",
+            "projectDescription": "",
+            "startDate": 1675361460249,
+            "endDate": 1675361460249,
+            "createdAt": 1675361460249,
+            "updatedAt": 1675361460249,
+            "backlog": {
+              "id": 0,
+              "PTSequence": 0,
+              "projectIdentifier": "",
+              "project": {
+                "id": 0,
+                "projectName": "",
+                "projectIdentifier": "",
+                "projectDescription": "",
+                "startDate": 1675361460250,
+                "endDate": 1675361460250,
+                "createdAt": 1675361460250,
+                "updatedAt": 1675361460250,
+                "backlog": {},
+                "user": {},
+                "projectLeader": ""
+              },
+              "projectTasks": [
+                {
+                  "id": 0,
+                  "projectSequence": "",
+                  "summary": "",
+                  "acceptanceCriteria": "",
+                  "status": "",
+                  "priority": 0,
+                  "dueDate": 1675361460251,
+                  "backlog": {},
+                  "projectIdentifier": "",
+                  "create_At": 1675361460252,
+                  "update_At": 1675361460252
+                }
+              ]
+            },
+            "user": {
+              "id": 0,
+              "username": "",
+              "fullName": "",
+              "password": "",
+              "confirmPassword": "",
+              "create_At": 1675361460252,
+              "update_At": 1675361460252,
+              "projects": [
+                {
+                  "id": 0,
+                  "projectName": "",
+                  "projectIdentifier": "",
+                  "projectDescription": "",
+                  "startDate": 1675361460253,
+                  "endDate": 1675361460253,
+                  "createdAt": 1675361460253,
+                  "updatedAt": 1675361460254,
+                  "backlog": {},
+                  "user": {},
+                  "projectLeader": ""
+                }
+              ]
+            },
+            "projectLeader": ""
+          }
+        ]
+      },
+      "projectLeader": ""
+    }
+  ]
+}
