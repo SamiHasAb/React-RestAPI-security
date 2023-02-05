@@ -19,15 +19,15 @@ public class CustomUserDetailsService implements UserDetailsService {
     @Override
     public UserDetails loadUserByUsername(String username) throws UsernameNotFoundException {
         User user = userRep.findByUsername(username);
-        if(user==null) new UsernameNotFoundException("User not found");
+        if (user == null) throw new UsernameNotFoundException("User not found");
         return user;
     }
 
 
     @Transactional
-    public User loadUserById(Long id){
+    public User loadUserById(Long id) {
         User user = userRep.getById(id);
-        if(user==null) new UsernameNotFoundException("User not found");
+        if (user == null) throw new UsernameNotFoundException("User not found");
         return user;
 
     }

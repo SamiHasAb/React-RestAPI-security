@@ -8,9 +8,9 @@ public interface ProjectService {
 
 	public Project findProjectByIdentifier( String projectIdent, String username);
 
-	public void deletProjectByIdentifier(String projectIdent , String username);
+	public void deleteProjectByIdentifier(String projectIdent , String username);
 
-	public Iterable<Project> getAllprojects();
+	public Iterable<Project> getAllProjects();
 
 	public Iterable<Project> findAllProjects(String username);
 

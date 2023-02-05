@@ -13,7 +13,7 @@ import org.springframework.validation.FieldError;
 public class MapValidationErrorService {
 
 	public ResponseEntity<?> mapValidationService (BindingResult result){
-		
+
 		 if(result.hasErrors()){
 	            Map<String, String> errorMap = new HashMap<>();
 
@@ -21,8 +21,7 @@ public class MapValidationErrorService {
 	                errorMap.put(error.getField(), error.getDefaultMessage());
 	            }
 	            return new ResponseEntity<Map<String, String>>(errorMap, HttpStatus.BAD_REQUEST);
-	        }
-	        return null;
-
+		 }
+	     return null;
 	}
 }

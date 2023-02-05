@@ -27,7 +27,9 @@ public class ProjectTaskServiceImpl implements ProjectTaskService {
 	private ProjectService projectService;
 
 	@Override
-	public ProjectTask addProjectTask(String projectIdentifier, ProjectTask projectTask, String username) {
+	public ProjectTask addProjectTask(String projectIdentifier,
+									  ProjectTask projectTask,
+									  String username) {
 
 		// PTs to be added to a specific project, project != null, BL exists
 		Backlog backlog = projectService.findProjectByIdentifier(projectIdentifier, username).getBacklog(); // backlogRepository.findByProjectIdentifier(projectIdentifier);
@@ -53,9 +55,10 @@ public class ProjectTaskServiceImpl implements ProjectTaskService {
 		}
 
 		// Fix bug with priority in Spring Boot Server, needs to check null first
-		if (projectTask.getPriority() == null || projectTask.getPriority() == 0) { // In the future we need
-																					// projectTask.getPriority()== 0 to
-																					// handle the form
+		if (projectTask.getPriority() == null || projectTask.getPriority() == 0) {
+			// In the future we need
+			// projectTask.getPriority()== 0 to
+			// handle the form
 			projectTask.setPriority(3);
 		}
 

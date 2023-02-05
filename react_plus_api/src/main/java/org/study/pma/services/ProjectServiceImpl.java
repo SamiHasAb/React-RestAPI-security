@@ -81,7 +81,7 @@ public class ProjectServiceImpl implements ProjectService {
 	}
 
 	@Override
-	public void deletProjectByIdentifier(String projectIdent ,String username) {
+	public void deleteProjectByIdentifier(String projectIdent , String username) {
 
 		Project project = proRep.findByProjectIdentifier(projectIdent.toUpperCase());
 		if (project == null)
@@ -93,7 +93,7 @@ public class ProjectServiceImpl implements ProjectService {
 	}
 
 	@Override
-	public Iterable<Project> getAllprojects() {
+	public Iterable<Project> getAllProjects() {
 		return proRep.findAll();
 	}
 	
